@@ -16,11 +16,14 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.theme.min.css
 ">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-
+    <!-- Bootstrap 4.5.3 CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    
     <!-- Custom StyleSheet -->
     <link rel="stylesheet" href="/css/styles.css" />
 
-    <title>Phone Shop</title>
+    <title>Organic Hub</title>
 </head>
 
 <body>
@@ -38,7 +41,7 @@
 
                     <div class="nav__logo">
                         <a href="/" class="scroll-link">
-                            PHONE
+                            Organic Hub
                         </a>
                     </div>
 
@@ -58,9 +61,7 @@
                             <li class="nav__item">
                                 <a href="#category" class="nav__link scroll-link">Category</a>
                             </li>
-                            <li class="nav__item">
-                                <a href="#news" class="nav__link scroll-link">Blog</a>
-                            </li>
+                            
                             <li class="nav__item">
                                 <a href="#contact" class="nav__link scroll-link">Contact</a>
                             </li>
@@ -106,7 +107,7 @@
                                 </div>
                                 <div class="hero__right">
                                     <div class="hero__img-container">
-                                        <img class="banner_01" src="./images/banner_01.png" alt="banner2" />
+                                        <img class="banner_01" src="./images/banner_01.jpeg" alt="banner2" />
                                     </div>
                                 </div>
                             </div>
@@ -120,7 +121,7 @@
                                     <a href="#"><button class="hero__btn">SHOP NOW</button></a>
                                 </div>
                                 <div class="hero__right">
-                                    <img class="banner_02" src="./images/banner_02.png" alt="banner2" />
+                                    <img class="banner_02" src="./images/banner_02.jpeg" alt="banner2" />
                                 </div>
                             </div>
                         </li>
@@ -151,33 +152,24 @@
     <!-- Main -->
     <main id="main">
         <div class="container">
-            <!-- Collection -->
-            <section id="collection" class="section collection">
-                <div class="collection__container" data-aos="fade-up" data-aos-duration="1200">
-                    <div class="collection__box">
-                        <div class="img__container">
-                            <img class="collection_02" src="./images/collection_02.png" alt="">
-                        </div>
-                        <div class="collection__content">
-                            <div class="collection__data">
-                                <span>New Colors Introduced</span>
-                                <h1>HEADPHONES</h1>
-                                <a href="#shop">SHOP NOW</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="collection__box">
-                        <div class="img__container">
-                            <img class="collection_01" src="./images/collection_01.png" alt="">
-                        </div>
-                        <div class="collection__content">
-                            <div class="collection__data">
-                                <span>Phone Device Presets</span>
-                                <h1>SMARTPHONES</h1>
-                                <a href="#">SHOP NOW</a>
-                            </div>
+           <!-- About us Section -->
+            <section class="about-us" id="about-us">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-md-12 text-center">
+                            <h3 class="pt-5 font-weight-bold">ABOUT US</h3>
+                            <p class="pb-5">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                                aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                                aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                                occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
+                                eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+                            </p>
                         </div>
                     </div>
+                </div>
+            
             </section>
 
             <!-- Latest Products -->
@@ -195,7 +187,7 @@
                                 <li class="glide__slide">
                                     <div class="product">
                                         <div class="product__header">
-                                            <img src="/images/products/iPhone/iphone6.jpeg" alt="product">
+                                            <img src="/images/products/product_01.jpeg" alt="product">
                                         </div>
                                         <div class="product__footer">
                                             <h3>Apple iPhone 11</h3>
@@ -250,7 +242,7 @@
                                 <li class="glide__slide">
                                     <div class="product">
                                         <div class="product__header">
-                                            <img src="/images/products/sumsung/samsung5.jpeg" alt="product">
+                                            <img src="/images/products/product_02.jpeg" alt="product">
                                         </div>
                                         <div class="product__footer">
                                             <h3>Samsung Galaxy</h3>
@@ -305,10 +297,10 @@
                                 <li class="glide__slide">
                                     <div class="product">
                                         <div class="product__header">
-                                            <img src="/images/products/headphone/headphone4.jpeg" alt="product">
+                                            <img src="/images/products/product_03.jpeg" alt="product">
                                         </div>
                                         <div class="product__footer">
-                                            <h3>Sony WH-CH510</h3>
+                                            <h3>Skin care</h3>
                                             <div class="rating">
                                                 <svg>
                                                     <use xlink:href="./images/sprite.svg#icon-star-full"></use>
@@ -360,10 +352,10 @@
                                 <li class="glide__slide">
                                     <div class="product">
                                         <div class="product__header">
-                                            <img src="/images/products/sumsung/samsung3.jpeg" alt="product">
+                                            <img src="/images/products/product_04.jpeg" alt="product">
                                         </div>
                                         <div class="product__footer">
-                                            <h3>Samsung Galaxy</h3>
+                                            <h3>Detox</h3>
                                             <div class="rating">
                                                 <svg>
                                                     <use xlink:href="./images/sprite.svg#icon-star-full"></use>
@@ -415,10 +407,10 @@
                                 <li class="glide__slide">
                                     <div class="product">
                                         <div class="product__header">
-                                            <img src="./images/products/iPhone/iphone2.jpeg" alt="product">
+                                            <img src="./images/products/product_05.jpeg" alt="product">
                                         </div>
                                         <div class="product__footer">
-                                            <h3>Apple iPhone 11</h3>
+                                            <h3>Sesame oil</h3>
                                             <div class="rating">
                                                 <svg>
                                                     <use xlink:href="./images/sprite.svg#icon-star-full"></use>
@@ -470,10 +462,10 @@
                                 <li class="glide__slide">
                                     <div class="product">
                                         <div class="product__header">
-                                            <img src="images/products/headphone/headphone2.jpeg" alt="product">
+                                            <img src="images/products/product_06.jpeg" alt="product">
                                         </div>
                                         <div class="product__footer">
-                                            <h3>Sony WH-CH510</h3>
+                                            <h3>Avocado Oil</h3>
                                             <div class="rating">
                                                 <svg>
                                                     <use xlink:href="./images/sprite.svg#icon-star-full"></use>
@@ -525,10 +517,10 @@
                                 <li class="glide__slide">
                                     <div class="product">
                                         <div class="product__header">
-                                            <img src="images/products/sumsung/samsung1.jpeg" alt="product">
+                                            <img src="images/products/product_07.jpeg" alt="product">
                                         </div>
                                         <div class="product__footer">
-                                            <h3>Samsung Galaxy</h3>
+                                            <h3>Bees Wax</h3>
                                             <div class="rating">
                                                 <svg>
                                                     <use xlink:href="./images/sprite.svg#icon-star-full"></use>
@@ -580,10 +572,10 @@
                                 <li class="glide__slide">
                                     <div class="product">
                                         <div class="product__header">
-                                            <img src="images/products/headphone/headphone1.jpeg" alt="product">
+                                            <img src="images/products/product_08.jpeg" alt="product">
                                         </div>
                                         <div class="product__footer">
-                                            <h3>Sony WH-CH510</h3>
+                                            <h3>Hair Product</h3>
                                             <div class="rating">
                                                 <svg>
                                                     <use xlink:href="./images/sprite.svg#icon-star-full"></use>
@@ -635,10 +627,10 @@
                                 <li class="glide__slide">
                                     <div class="product">
                                         <div class="product__header">
-                                            <img src="images/products/iPhone/iphone1.jpeg" alt="product">
+                                            <img src="images/products/product_09.jpeg" alt="product">
                                         </div>
                                         <div class="product__footer">
-                                            <h3>Apple iPhone XR</h3>
+                                            <h3>Avocado</h3>
                                             <div class="rating">
                                                 <svg>
                                                     <use xlink:href="./images/sprite.svg#icon-star-full"></use>
@@ -744,50 +736,6 @@
         </div>
         </section>
 
-        <!-- Facility Section -->
-        <section class="facility__section section" id="facility">
-            <div class="container">
-                <div class="facility__contianer" data-aos="fade-up" data-aos-duration="1200">
-                    <div class="facility__box">
-                        <div class="facility-img__container">
-                            <svg>
-                                <use xlink:href="./images/sprite.svg#icon-airplane"></use>
-                            </svg>
-                        </div>
-                        <p>FREE SHIPPING WORLD WIDE</p>
-                    </div>
-
-                    <div class="facility__box">
-                        <div class="facility-img__container">
-                            <svg>
-                                <use xlink:href="./images/sprite.svg#icon-credit-card-alt"></use>
-                            </svg>
-                        </div>
-                        <p>100% MONEY BACK GUARANTEE</p>
-                    </div>
-
-                    <div class="facility__box">
-                        <div class="facility-img__container">
-                            <svg>
-                                <use xlink:href="./images/sprite.svg#icon-credit-card"></use>
-                            </svg>
-                        </div>
-                        <p>MANY PAYMENT GATWAYS</p>
-                    </div>
-
-                    <div class="facility__box">
-                        <div class="facility-img__container">
-                            <svg>
-                                <use xlink:href="./images/sprite.svg#icon-headphones"></use>
-                            </svg>
-                        </div>
-                        <p>24/7 ONLINE SUPPORT</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        </div>
-
         <!-- Testimonial Section -->
         <section class="section testimonial" id="testimonial">
             <div class="testimonial__container">
@@ -887,104 +835,7 @@
             </div>
         </section>
 
-        <!--New Section  -->
-        <section class="section news" id="news">
-            <div class="container">
-                <div class="title__container">
-                    <div class="section__titles">
-                        <div class="section__title active">
-                            <span class="dot"></span>
-                            <h1 class="primary__title">Phone News</h1>
-                        </div>
-                    </div>
-                </div>
-                <div class="news__container">
-                    <div class="glide" id="glide_5">
-                        <div class="glide__track" data-glide-el="track">
-                            <ul class="glide__slides">
-                                <li class="glide__slide">
-                                    <div class="new__card">
-                                        <div class="card__header">
-                                            <img src="./images/news1.jpg" alt="">
-                                        </div>
-                                        <div class="card__footer">
-                                            <h3>Styling White Shirts After A Cool Day</h3>
-                                            <span>By Admin</span>
-                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
-                                                praesentium, numquam non
-                                                provident rem sed minus natus unde vel modi!</p>
-                                            <a href="#"><button>Read More</button></a>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="glide__slide">
-                                    <div class="new__card">
-                                        <div class="card__header">
-                                            <img src="./images/news2.jpg" alt="">
-                                        </div>
-                                        <div class="card__footer">
-                                            <h3>Styling White Shirts After A Cool Day</h3>
-                                            <span>By Admin</span>
-                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
-                                                praesentium, numquam non
-                                                provident rem sed minus natus unde vel modi!</p>
-                                            <a href="#"><button>Read More</button></a>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="glide__slide">
-                                    <div class="new__card">
-                                        <div class="card__header">
-                                            <img src="./images/news3.jpg" alt="">
-                                        </div>
-                                        <div class="card__footer">
-                                            <h3>Styling White Shirts After A Cool Day</h3>
-                                            <span>By Admin</span>
-                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
-                                                praesentium, numquam non
-                                                provident rem sed minus natus unde vel modi!</p>
-                                            <a href="#"><button>Read More</button></a>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="glide__slide">
-                                    <div class="new__card">
-                                        <div class="card__header">
-                                            <img src="./images/news4.jpg" alt="">
-                                        </div>
-                                        <div class="card__footer">
-                                            <h3>Styling White Shirts After A Cool Day</h3>
-                                            <span>By Admin</span>
-                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
-                                                praesentium, numquam non
-                                                provident rem sed minus natus unde vel modi!</p>
-                                            <a href="#"><button>Read More</button></a>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="glide__slide">
-                                    <div class="new__card">
-                                        <div class="card__header">
-                                            <img src="./images/news5.jpg" alt="">
-                                        </div>
-                                        <div class="card__footer">
-                                            <h3>Styling White Shirts After A Cool Day</h3>
-                                            <span>By Admin</span>
-                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
-                                                praesentium, numquam non
-                                                provident rem sed minus natus unde vel modi!</p>
-                                            <a href="#"><button>Read More</button></a>
-                                        </div>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-
+        
         <!-- NewsLetter -->
         <section class="section newsletter" id="contact">
             <div class="container">
@@ -1082,7 +933,7 @@
     </footer>
     <!-- End Footer -->
 
-    <!-- PopUp -->
+    <!-- PopUp
     <div class="popup hide__popup">
         <div class="popup__content">
             <div class="popup__close">
@@ -1107,7 +958,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
     <!-- Go To -->
 

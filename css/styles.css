@@ -634,6 +634,14 @@ Collection Media Query
     font-size: 2rem;
   }
 }
+/*
+======================
+About Us Section
+======================
+*/
+#about-us p {
+  line-height: 2.3em;
+}
 
 /*
 ======================
