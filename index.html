@@ -12,8 +12,8 @@
 
 
     <!-- Carousel -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.core.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.theme.min.css
+    <link rel="stylesheet" href="css/glide.core.css">
+    <link rel="stylesheet" href="css/glide.theme.min.css">
 ">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!-- Bootstrap 4.5.3 CDN -->
@@ -22,7 +22,9 @@
     
     <!-- Custom StyleSheet -->
     <link rel="stylesheet" href="/css/styles.css" />
-
+    <!-- form stylesheet -->
+    <link rel="stylesheet" href="/css/form.css">
+    <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
     <title>Organic Hub</title>
 </head>
 
@@ -745,7 +747,7 @@
                             <li class="glide__slide">
                                 <div class="testimonial__box">
                                     <div class="client__image">
-                                        <img src="./images/profile1.jpg" alt="profile">
+                                        <img src="./images/profiles/profile1.jpg" alt="profile">
                                     </div>
                                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae fuga hic
                                         nesciunt tempore
@@ -762,7 +764,7 @@
                             <li class="glide__slide">
                                 <div class="testimonial__box">
                                     <div class="client__image">
-                                        <img src="./images/profile2.jpg" alt="profile">
+                                        <img src="./images/profiles/profile2.jpg" alt="profile">
                                     </div>
                                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae fuga hic
                                         nesciunt tempore
@@ -783,7 +785,7 @@
                             <li class="glide__slide">
                                 <div class="testimonial__box">
                                     <div class="client__image">
-                                        <img src="./images/profile3.jpg" alt="profile">
+                                        <img src="./images/profiles/profile3.jpg" alt="profile">
                                     </div>
                                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae fuga hic
                                         nesciunt tempore
@@ -805,7 +807,7 @@
                             <li class="glide__slide">
                                 <div class="testimonial__box">
                                     <div class="client__image">
-                                        <img src="./images/profile4.jpg" alt="">
+                                        <img src="./images/profiles/profile4.jpg" alt="">
                                     </div>
                                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae fuga hic
                                         nesciunt tempore
@@ -835,7 +837,75 @@
             </div>
         </section>
 
+       <!-- Contact form  -->
+    <div class="form-container">
         
+        <div class="form">
+            <div class="contact-info">
+                <h3 class="title">Let's get in touch</h3>
+                <p class="text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
+                    dolorum adipisci recusandae praesentium dicta!
+                </p>
+    
+                <div class="info">
+                    <div class="information">
+                        <img src="images/form/location.png" class="icon" alt="" />
+                        <p>92 Cherry Drive Uniondale, NY 11553</p>
+                    </div>
+                    <div class="information">
+                        <img src="images/form/email.png" class="icon" alt="" />
+                        <p>lorem@ipsum.com</p>
+                    </div>
+                    <div class="information">
+                        <img src="images/form/phone.png" class="icon" alt="" />
+                        <p>123-456-789</p>
+                    </div>
+                </div>
+    
+                <div class="social-media">
+                    <p>Connect with us :</p>
+                    <div class="social-icons">
+                        <a href="#">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="contact-form">
+                <span class="circle one"></span>
+                <span class="circle two"></span>
+    
+                <form action="index.html" autocomplete="off">
+                    <h3 class="title">Contact us</h3>
+                    <div class="input-container">
+                        <input type="text" name="name" placeholder="Name" class="input" />
+                    </div>
+                    <div class="input-container">
+                        <input type="email" name="email" placeholder="Email" class="input" />
+                    </div>
+                    <div class="input-container">
+                        <input type="tel" name="phone" placeholder="Phone" class="input" />
+                    </div>
+                    <div class="input-container textarea">
+                        <textarea name="message" placeholder="Message" class="input"></textarea>
+                    </div>
+                    <input type="submit" value="Send" class="btn" />
+                </form>
+            </div>
+        </div>
+    </div>
+
         <!-- NewsLetter -->
         <section class="section newsletter" id="contact">
             <div class="container">
@@ -975,7 +1045,7 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
     <!-- Custom JavaScript -->
-    <script src="./js/products.js"></script>
+
     <script src="./js/index.js"></script>
     <script src="./js/slider.js"></script>
 
